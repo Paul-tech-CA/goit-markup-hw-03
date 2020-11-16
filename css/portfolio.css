@@ -1,0 +1,42 @@
+body {
+    color: var(--title-text-color);
+    background-color: var(--background-color-header);
+}
+
+
+
+/* Button */
+
+.button.secondary {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;   
+}
+
+.link-filter:hover,
+.link-filter:focus {
+    color: var(--background-color-header);
+    background-color: var(--accent-color);
+}
+
+.examples a {
+    color: inherit;   
+    text-decoration: none; 
+}
+
+.title-examples {
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.title-text {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;  
+    letter-spacing: 0.03em;
+}

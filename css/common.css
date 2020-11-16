@@ -1,0 +1,113 @@
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --background-color-main: #E5E5E5;
+    --background-color-primary: #F5F4FA;
+    --background-color-header: #FFFFFF;
+    --background-color-footer: #2F303A;
+    --footer-color: rgba(255, 255, 255, 0.6);
+    }
+
+body {
+    background-color: var(--background-color-main)
+    color:  var(--primary-text-color);
+    
+    font-family: Roboto, sans-serif;
+    }
+   
+    /* Logotype */
+.logo {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    stop-opacity: ;
+        }
+
+.logo-studio-header {
+    color: var(--title-text-color);
+    }
+
+    /* Button */
+
+    
+.button {
+    font-family: inherit;
+
+}
+
+
+    /* header */
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+.site-nav a {
+    color: var(--title-text-color);  
+    text-decoration: none;  
+}
+
+    .contacts a:hover,
+    .contacts a:focus{
+    color: var(--accent-color);
+}
+
+.page-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    }
+
+/* Current */
+
+.site-nav .link.current {
+    color: var(--accent-color);    
+}
+
+.contacts a {
+    text-decoration: none;
+    color: inherit;    
+}
+
+.list {
+    list-style: none;
+    }
+
+    /*  Footer */
+
+.adress p{
+    color: var(--background-color-header);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.footer {
+    background-color: var(--background-color-footer);
+}
+
+.logo-studio-footer {
+    color: var(--background-color-header);
+    }
+
+.adress .footer-adress-contacts {
+    color: var(--footer-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+
+.contacts .footer-adress-contacts {
+    color: var(--primary-text-color);
+}

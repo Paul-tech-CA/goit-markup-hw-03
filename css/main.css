@@ -1,0 +1,84 @@
+
+/*  <!-- Projects colors-->
+black-color #212121;
+main-color #757575;
+background-color main #E5E5E5;
+background-color primary #F5F4FA;
+background-color header #FFFFFF;
+background-color footer #2F303A;
+footer-color rgba(255, 255, 255, 0.6);
+accent-color #2196F3;
+white-colr #ffffff;*/
+
+
+
+
+/* Hero */
+.hero-title {
+    color: var(--title-text-color)
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section h3 {
+    color: var(--title-text-color)
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section p {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+
+.section .team {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.section .section-list-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.background {
+    background-color: var(--background-color-primary);
+}
+
+
+/* Button */
+
+.button.primary {
+    color: var(--background-color-header);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    
+}
+
