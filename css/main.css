@@ -73,7 +73,7 @@ white-colr #ffffff;*/
 }
 
 .feature-list {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.03em;
@@ -89,6 +89,11 @@ justify-content:space-between;
 .examples {
     padding-bottom: 50px;
     margin: 0;
+}
+
+.container-title-exsmples{
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 
 .examples-section {
@@ -113,7 +118,7 @@ justify-content:space-between;
 }
 
 .team-list{
-    padding-top: 94px;
+    padding-top: 0;
     margin-bottom: 50px;
 }
 
