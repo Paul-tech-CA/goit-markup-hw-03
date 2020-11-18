@@ -155,13 +155,13 @@ body {
 
 .footer-contacts{
     flex-direction: column;
-    display: flex;
-    display: inline-block; 
+   display: flex; 
 }
 
 .footer-logo{
-    margin-bottom: 20px;
+    display: inline-block;
     margin-right: 0;
+    margin-bottom: 20px;
 }
 
 .footer-adress{
@@ -170,7 +170,12 @@ body {
 }
 
 .footer-mail{
+    display: block;
     margin-bottom: 9px;
+}
+
+.footer-tel{
+    display: block;
 }
 
 .footer {

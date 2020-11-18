@@ -4,6 +4,9 @@ body {
    
 }
 
+.page-header {
+border: 1px solid #ECECEC;
+}
 
 
 /* Button */
@@ -21,6 +24,30 @@ body {
 .link-filter:focus {
     color: var(--background-color-header);
     background-color: var(--accent-color);
+}
+
+.container-portfolio{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.filter{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    }
+
+.filter .filter-item + .filter-item{
+    margin-left: 8px;
+}
+
+.examples{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.examples-title-case:not(:nth-child(3n)){
+    margin-right: 30px;
 }
 
 .examples a {
