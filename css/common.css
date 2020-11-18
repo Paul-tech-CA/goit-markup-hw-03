@@ -10,6 +10,16 @@
     --footer-color: rgba(255, 255, 255, 0.6);
     }
 
+img{
+    display: block;
+}
+
+.container{
+margin: 0 auto;
+width: 1200px;
+padding: 0 15px;
+}
+
 body {
     background-color: var(--background-color-main)
     color:  var(--primary-text-color);
@@ -27,6 +37,7 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     stop-opacity: ;
+    margin-right: 93px;
         }
 
 .logo-studio-header {
@@ -38,7 +49,8 @@ body {
     
 .button {
     font-family: inherit;
-
+    border-radius: 4px;
+    border: none;
 }
 
 
@@ -48,14 +60,58 @@ body {
 .link:focus {
     color: var(--accent-color);
 }
-.site-nav a {
+.site-nav a{
     color: var(--title-text-color);  
     text-decoration: none;  
+}
+
+.container.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+}
+.site-nav-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
+
+.site-nav .site-nav-link:not(:last-child){
+   
+    margin-right: 50px;
+   
+}
+.contacts {
+    display: flex;
+}
+
+.contacts .footer-adress-contacts+.footer-adress-contacts{
+    margin-left: 50px;
 }
 
     .contacts a:hover,
     .contacts a:focus{
     color: var(--accent-color);
+}
+
+.hero-title {
+    color: var(--title-text-color)
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 30;
 }
 
 .page-header {
@@ -78,6 +134,8 @@ body {
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
     }
 
     /*  Footer */
@@ -88,6 +146,31 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     font-style: normal;
+}
+
+.footer-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-contacts{
+    flex-direction: column;
+    display: flex;
+    display: inline-block; 
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.footer-adress{
+    margin-top: 0;
+    margin-bottom: 9px;
+}
+
+.footer-mail{
+    margin-bottom: 9px;
 }
 
 .footer {
