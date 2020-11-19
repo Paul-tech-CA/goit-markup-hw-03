@@ -91,7 +91,7 @@ justify-content:space-between;
     margin: 0;
 }
 
-.container-title-exsmples{
+.section-examples{
     padding-top: 0;
     padding-bottom: 94px;
 }
@@ -149,7 +149,7 @@ justify-content:space-between;
     margin-top: 0;
     margin-bottom: 0;
 }
-.team-examples{
+.section-team {
 padding-top: 94px;
 padding-bottom: 94px;
 }

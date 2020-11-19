@@ -51,6 +51,7 @@ body {
     font-family: inherit;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 

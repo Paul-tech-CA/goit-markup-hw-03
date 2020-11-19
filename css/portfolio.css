@@ -46,12 +46,12 @@ border-bottom: 1px solid #ECECEC;
     flex-wrap: wrap;
 }
 
-.our-projects{
-    border: 1px solid orangered;
-}
+    .examples-border {
+        border: 1px solid #EEEEEE;;
+    }
 
 .examples-title-case:not(:nth-child(3n)){
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .examples-title-case:not(:nth-last-child(-n+3)){
